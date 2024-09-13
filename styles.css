@@ -88,7 +88,7 @@ nav ul li a:hover {
 
 /* Showcase */
 #showcase {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    background: url("https://images.pexels.com/photos/4050288/pexels-photo-4050288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 100vh;
     display: flex;
     flex-direction: column;
