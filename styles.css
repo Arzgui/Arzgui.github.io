@@ -3,7 +3,7 @@
     --primary-color: #f1c40f; /* Gold */
     --secondary-color: #ffffff; /* White */
     --accent-color: #e67e22; /* Orange for contrast */
-    --text-color: #333; /* Dark grey for text */
+    --text-color: #ffffff; /* Dark grey for text */
     --bg-color: #f9f9f9; /* Light grey background */
     --card-bg: #ffffff; /* White background for cards */
     --header-bg-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for header on scroll */
