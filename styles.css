@@ -1,11 +1,12 @@
 /* Global Styles */
 :root {
-    --primary-color: #f1c40f; /* Or gold */
+    --primary-color: #f1c40f; /* Gold */
     --secondary-color: #ffffff; /* White */
     --accent-color: #e67e22; /* Orange for contrast */
     --text-color: #333; /* Dark grey for text */
     --bg-color: #f9f9f9; /* Light grey background */
     --card-bg: #ffffff; /* White background for cards */
+    --header-bg-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for header on scroll */
 }
 
 /* Reset and Box Sizing */
@@ -37,7 +38,7 @@ header {
 }
 
 header.scrolled {
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background: var(--header-bg-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -97,6 +98,7 @@ nav ul li a:hover {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease;
+    color: var(--secondary-color);
 }
 
 #showcase p {
@@ -104,6 +106,7 @@ nav ul li a:hover {
     max-width: 600px;
     margin-bottom: 2rem;
     animation: fadeInUp 1s ease 0.3s both;
+    color: var(--secondary-color);
 }
 
 .btn {
