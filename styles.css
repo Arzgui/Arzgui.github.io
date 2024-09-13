@@ -8,6 +8,7 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
     background: #1a1a1a;
     color: #fff;
@@ -18,17 +19,18 @@ header {
     z-index: 1000;
     transition: background 0.3s ease;
 }
-header.scrolled {
-    background: rgba(26, 26, 26, 0.9);
-}
-header .container {
+#branding {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+#logo {
+    max-height: 50px; /* Ajustez la hauteur du logo selon vos besoins */
+    margin-right: 1rem;
 }
 #branding h1 {
     font-size: 2rem;
 }
+
 nav ul {
     display: flex;
     list-style: none;
