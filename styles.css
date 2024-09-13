@@ -3,10 +3,10 @@
     --primary-color: #f1c40f; /* Gold */
     --secondary-color: #ffffff; /* White */
     --accent-color: #e67e22; /* Orange for contrast */
-    --text-color: #333; /* Dark grey for text */
+    --text-color: #ffffff; /* White text color for dark background */
     --bg-color: #f9f9f9; /* Light grey background */
     --card-bg: #ffffff; /* White background for cards */
-    --header-bg-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for header on scroll */
+    --header-bg-color: #000000; /* Black background for header */
 }
 
 /* Reset and Box Sizing */
@@ -26,20 +26,20 @@ body {
 
 /* Header */
 header {
-    background: var(--secondary-color);
-    color: var(--text-color);
+    background: var(--header-bg-color); /* Black background */
+    color: var(--text-color); /* White text */
     padding: 1rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for better visibility */
 }
 
 header.scrolled {
-    background: var(--header-bg-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black on scroll */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
 
 header .container {
@@ -66,7 +66,7 @@ header .container {
 
 h1 {
     font-size: 2rem;
-    color: var(--text-color);
+    color: var(--text-color); /* White text color */
 }
 
 nav ul {
@@ -81,7 +81,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--text-color);
+    color: var(--text-color); /* White text color */
     text-decoration: none;
     font-weight: 300;
     transition: color 0.3s ease;
@@ -89,7 +89,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color); /* Gold on hover */
 }
 
 /* Showcase */
